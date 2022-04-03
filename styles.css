@@ -37,7 +37,7 @@ body {
 
 .hero-maintext {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #f9faf8;
 }
 
@@ -46,15 +46,13 @@ body {
     color: #e5e7eb;
 }
 
-.button {
-    background-color: #3882f6;
-}
-
 .hero-image {
-    width: 35%;
+    width: 40%;
     height: 400px;
     border: none;
 }
+
+
 
 img {
     width :100%;
@@ -72,4 +70,13 @@ ul {
 a {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+button {
+    color: #ffffff;
+    background-color: #3882f6;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
 }
