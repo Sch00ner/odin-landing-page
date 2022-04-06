@@ -74,19 +74,43 @@ body {
     object-fit: fill;
 }
 
-figure {
+.info-fig {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-figcaption {
+.info-figtext {
     text-align: center;
     width: 200px;
     height: 200px;
 }
 
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.quote-text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: light;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+}
 
 img {
     width: 100%;
