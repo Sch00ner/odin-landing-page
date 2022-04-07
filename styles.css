@@ -96,6 +96,8 @@ body {
     flex-direction: column;
     margin-left: 400px;
     margin-right: 400px;
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 
 .quote-text {
@@ -104,12 +106,64 @@ body {
     font-weight: light;
     color: #1f2937;
     font-style: italic;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .quote-author {
     text-align: right;
     font-size: 18px;
     font-weight: bold;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    margin: 100px 200px 100px 200px;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.contact-text {
+    margin: 50px;
+}
+
+.contact-maintext {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.contact-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    border: 3px solid #f9faf8;
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
+    background-color: #1f2937;
+    padding: 40px;
 }
 
 img {
